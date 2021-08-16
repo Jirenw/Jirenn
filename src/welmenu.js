@@ -12,7 +12,7 @@ const welmenu = (prefix, pushname) => {
 
 _Para activar este comando el bot necesita tener admin_
 
-ву ѕнαη∂υу
+By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽
 `
 
 }
