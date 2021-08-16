@@ -1,25 +1,22 @@
 const version = (prefix, pushname) => {
     return `
-*ѕнαηвσт ву ѕнαη∂υу*
+*BoT-☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾<>By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽*
 
 *Actualizado:* 16 de Agosto del 2021
 *Versión actual:* 3.6
-*Ofrecida por:* ѕнαη∂υу™
+*Ofrecida por:*JIREN™
 
 
 *INFORME*
 
-Si no funciona el comando *play o *play2 checa el blog del bot y mira la version que poses 
-Ya que ire cambiando mi apikey de mi bot para que siga en funcionamiento
-Cambiare la apikey pasando un mes o si veo muchos atercados o robos
-Si vez a alguien que robo mi bot comunicate conmigo con el comando *creador
+ELLA NO TE AMO/NO TE AMA/NI TE AMARA.
 
 
 *COMO ACTUALIZAR*
 
-https://cutt.ly/jmSF2RN
+Comuníquese con Jiren ._.
 
-ву ѕнαη∂υу
+By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽
 `
 
 }
