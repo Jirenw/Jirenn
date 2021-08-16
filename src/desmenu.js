@@ -25,7 +25,7 @@ ${prefix}play Industry Baby Lil Nas X
     
 _*play y *play2 tiene un limite de 2000 canciones en el server, si llega a su limite se restablecera dentro de 24 horas_
      
-ву ѕнαη∂υу`
+By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽`
 
 }
 
