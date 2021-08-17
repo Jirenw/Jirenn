@@ -310,7 +310,7 @@ async function starts() {
 			const isCmd = body.startsWith(prefix)
 
 			mess = {
-				wait: 'Espera prro estoy procesando😎\n\n❗No me salgas con spam o mi dueño te banea ctmr👏❗\n\nву ѕнαη∂υу',
+				wait: 'Espera prro estoy procesando😎\n\n❗No me salgas con spam o mi dueño te banea ctmr👏❗\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 				success: '✔️ Listo ✔️',
                                 levelon: '❬ ✅ ❭ *Level activado*',
 				leveloff: ' ❬ ✅ ❭  *Level desactivado*',
