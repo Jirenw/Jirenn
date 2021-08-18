@@ -1,6 +1,6 @@
 const desmenu = (prefix, pushname) => {
     return `
-*Comandos De Descargas ✅*
+*🔽COMANDOS DE DESCARGAS🔽*
  
 ══════════════
 
