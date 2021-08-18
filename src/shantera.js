@@ -1,5 +1,5 @@
 const shantera = (prefix, pushname) => {
-    return `*Palabras especificas para que el bot interactue con ustedes*
+    return `*Palabras especificas para que el bot les responda*
 
 
 Fiesta del admin
@@ -42,7 +42,7 @@ Boliviano
 Enano
 
 
-_*Ojito escribe tal y como esta en el mensaje*_
+_*Escribe tal y como esta en el mensaje, luego no te quejes que el bot no funciona.*_
 
 By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽`
 
