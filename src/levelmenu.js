@@ -1,18 +1,18 @@
 const levelmenu = (prefix, pushname) => {
     return `
 
-*Comandos De Level 🆕 beta*
+*COMANDOS DE NIVEL UwU*
  
 ══════════════
 
-PARA ACTIVARLO EL BOT NECESITA DE ADMINISTRACIÓN
+PARA ACTIVARLO EL BOT NECESITA SER ADMIN.
 
-*PARA ACTIVAR LEVEL*
+*PARA ACTIVAR NIVEL*
 
 *leveling 1
 
 
-*PARA DESACTIVAR LEVEL*
+*PARA DESACTIVAR NIVEL*
 
 *leveling 0
 
