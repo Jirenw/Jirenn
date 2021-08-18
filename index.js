@@ -1245,7 +1245,7 @@ break
 					var nombre = reg.split("|")[0];
                                                 user.push(sender)
 						fs.writeFileSync('./database/json/user.json', JSON.stringify(user))
-						client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`LUGAR: GRUPO *${groupName}*` 🥸\`\`\`\n\n\`\`\`HORA EC: ${time}\`\`\`\n\n\`\`\`FECHA: ${date}\`\`\`\n\n\`\`\`[USUARIO]: ${nombre}\`\`\`\n\`\`\`[NÚMERO]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTOTAL DE USUARIOS REGISTRADOS ${user.length}\`\`\``, text, {quoted: mek})
+						client.sendMessage(from, `\`\`\`REGISTRADO ✅\`\`\`\n\n\`\`\`LUGAR: YOQUESE` 🥸\`\`\`\n\n\`\`\`HORA EC: ${time}\`\`\`\n\n\`\`\`FECHA: ${date}\`\`\`\n\n\`\`\`[USUARIO]: ${nombre}\`\`\`\n\`\`\`[NÚMERO]: wa.me/${sender.split("@")[0]}\`\`\`\n\n\`\`\`Para usar el bot\`\`\`\n\`\`\`Por favor\`\`\`\n\`\`\`enviar ${prefix}help\`\`\`\n\`\`\`\nTOTAL DE USUARIOS REGISTRADOS ${user.length}\`\`\``, text, {quoted: mek})
 					break
                                 case 'welcome':
 					if (!isGroup) return reply(mess.only.group)
