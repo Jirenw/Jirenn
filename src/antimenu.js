@@ -1,7 +1,7 @@
 const antimenu = (prefix, pushname) => {
     return `
 
-*Comandos Para Activar Los Antilinks 📢*
+*COMANDOS DE ANTILINK'S 📢*
 
 ══════════════
 
@@ -35,7 +35,7 @@ ${prefix}antiface 0
 
 ══════════════
 
-_*Antilink De Tik Tok*_
+_*Antilink De TikTok*_
 
 *PARA ACTIVAR EL ANTILINK*
 ${prefix}antitik 1
