@@ -5,47 +5,67 @@ _「BoT-☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾」_
 
 ◉ *INFORMACION*
    ○ COMANDO: ⌜ ${prefix} ⌟
-   ○ GRUPO OFC: https://chat.whatsapp.com/IIPycRBYF19F42yQETelNR
-   ○ ELLA: http://no.teama.com.mx
+   ○ GRUPO OFC: ☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾
+   ○ ELLA: NO-TE-AMA.COM
    ○ HORARIO DE ACTIVIDAD: 2p.m-5:30a.m 
 
 ◉ *PARA USAR EL BOT*
 Registrate con el comando ${prefix}daftar y tu NickName o Nombre.
 
-◉ *COMANDOS NUEVOS*
+◉ *GRUPOS*
   ║
-  ╠○ ${prefix}levelmenu
-  ╠ ➢Nivel para tus grupos.
+  ╠○ ${prefix}closegc
+  ║  ➢Cerrar el grupo. [Solo Admins Pueden Hacerlo]
+  ╠○ ${prefix}opengc
+  ║  ➢Abrir grupo. [Solo Admins Pueden Hacerlo]
+  ╠○ ${prefix}kickmenu
+  ║  ➢Eliminar a un participante.
+  ╠○ ${prefix}promote
+  ║  ➢Dar el honor de ser admin a un participante.
+  ╠○ ${prefix}demote
+  ║  ➢Quitar Admin porque le falta odio :v.
+  ╠○ ${prefix}linkgc
+  ║  ➢Enlace del grupo.
+  ╠○ ${prefix}adminlist
+  ║  ➢Nombra a los administradores del grupo.
+  ╠○ ${prefix}todos
+  ║  ➢Nombra a todos los integrantes del grupo.
   ╠○ ${prefix}antimenu
-  ╠ ➢Antilink.
-  ╠○ ${prefix}otak
-  ╠ ➢Monas chinas.
-  ╠○ ${prefix}shantera
-  ╚ ➢Habla con el bot.
-
-◉ *MENUS NUEVOS*
-  ║
-  ╠○ ${prefix}juegos
-  ╠ ➢Divierte con tus amigos :)
-  ╠○ ${prefix}desmenu
-  ╠ ➢Descargar musica y videos de YouTube.
-  ╠○ ${prefix}version
-  ╠ ➢Conoce la versión del bot.
+  ║  ➢Antilink's.
+  ╠○ ${prefix}levelmenu
+  ║  ➢Nivel para los grupos.
   ╠○ ${prefix}welmenu
   ╚ ➢Comando de Bienvenida al grupo.
+
+◉ *OTROS*
+  ║
+  ╠○ ${prefix}juegos
+  ║  ➢Divierte con tus amigos :)
+  ╠○ ${prefix}desmenu
+  ║  ➢Descargar musica y videos de YouTube.
+  ╠○ ${prefix}version
+  ║  ➢Conoce la versión del bot.
+  ╠○ ${prefix}otak
+  ║  ➢Monas chinas.
+  ╠○ ${prefix}shantera
+  ║  ➢Habla con el bot.
+  ╠○ ${prefix}wame
+  ║  ➢Link de tu Whatsapp.
+  ╠○ ${prefix}qrcode
+  ╚  ➢Coloca un texto
 
 ◉ *CREAR STICKERS*
   ║
   ╠○ ${prefix}sticker
   ╠○ ${prefix}attp
-  ╠ ➢Mas un texto corto.
+  ║ ➢Mas un texto corto.
   ╠○ ${prefix}stickergif
   ╚ ➢6 segundos de video.
 
 ◉ *CONVERTIDORES*
   ║
   ╠○ ${prefix}toimg
-  ╠ ➢De sticker a imagen.
+  ║ ➢De sticker a imagen.
   ╠○ ${prefix}tomp3
   ╚ ➢De video a MP3.
 
@@ -54,32 +74,6 @@ Registrate con el comando ${prefix}daftar y tu NickName o Nombre.
   ╠○ ${prefix}idioma
   ╠○ ${prefix}tts es
   ╚ ➢mas texto.
-
-◉ *GRUPOS*
-  ║
-  ╠○ ${prefix}closegc
-  ╠ ➢Cerrar el grupo. [Solo Admins Pueden Hacerlo]
-  ╠○ ${prefix}opengc
-  ╠ ➢Abrir grupo. [Solo Admins Pueden Hacerlo]
-  ╠○ ${prefix}kickmenu
-  ╠ ➢Eliminar a un participante.
-  ╠○ ${prefix}promote
-  ╠ ➢Dar el honor de ser admin a un participante.
-  ╠○ ${prefix}demote
-  ╠ ➢Quitar Admin porque le falta odio :v.
-  ╠○ ${prefix}linkgc
-  ╠ ➢Enlace del grupo.
-  ╠○ ${prefix}adminlist
-  ╠ ➢Nombra a los administradores del grupo.
-  ╠○ ${prefix}todos
-  ╚ ➢Nombra a todos los integrantes del grupo.
-
-◉ *OTROS*
-  ║
-  ╠○ ${prefix}wame
-  ╠ ➢Link de tu Whatsapp.
-  ╠○ ${prefix}qrcode
-  ╚ ➢Coloca un texto.
 
 Para usar estas funciones el bot necesita ser administrador.
   
