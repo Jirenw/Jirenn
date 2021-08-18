@@ -1,6 +1,6 @@
 const welmenu = (prefix, pushname) => {
     return `
-*COMANDOS DE BIENVENIDA 👋*
+*COMANDO DE BIENVENIDA 👋*
 
 *PARA ACTIVAR LA BIENVENIDA*
 
