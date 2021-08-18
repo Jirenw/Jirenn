@@ -1,89 +1,87 @@
 const help = (prefix) => {
 	return `
-
-「*BoT-☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾*」
-「*By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽*」
+_「BoT-☪⃟⚜⃝𝔸ℕ𝕀𝕄𝔼&𝕄𝔸𝕊⃝➳⃟♾」_
+*「By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽」*
 
 ◉ *INFORMACION*
-   ○ Comando: ⌜ ${prefix} ⌟
-   ○ Creador: Yo™ 
+   ○ COMANDO: ⌜ ${prefix} ⌟
    ○ GRUPO OFC: https://chat.whatsapp.com/IIPycRBYF19F42yQETelNR
    ○ ELLA: http://no.teama.com.mx
+   ○ HORARIO DE ACTIVIDAD: 2p.m-5:30a.m 
 
+◉ *PARA USAR EL BOT*
+Registrate con el comando ${prefix}daftar y tu NickName o Nombre.
 
-◉ *NUEVOS COMANDOS*
+◉ *COMANDOS NUEVOS*
   ║
   ╠○ ${prefix}levelmenu
-  ╠ ➢Level para tus grupos.
+  ╠ ➢Nivel para tus grupos.
   ╠○ ${prefix}antimenu
-  ╠ ➢Su nombre lo dice todo (antilink).
+  ╠ ➢Antilink.
   ╠○ ${prefix}otak
   ╠ ➢Monas chinas.
   ╠○ ${prefix}shantera
-  ╚ ➢Interactua con el bot.
+  ╚ ➢Habla con el bot.
 
-◉ *NUEVOS MENUS*
+◉ *MENUS NUEVOS*
   ║
   ╠○ ${prefix}juegos
   ╠ ➢Divierte con tus amigos :)
   ╠○ ${prefix}desmenu
-  ╠ ➢Descargar musica y videos de YT.
+  ╠ ➢Descargar musica y videos de YouTube.
   ╠○ ${prefix}version
-  ╠ ➢Conoce la versión de tu bot.
+  ╠ ➢Conoce la versión del bot.
   ╠○ ${prefix}welmenu
-  ╚ ➢Comandos de bienvedia a grupos.
-
-◉ *PARA USAR EL BOT*
-Registrate con el comando ${prefix}daftar y tu nombre
+  ╚ ➢Comando de Bienvenida al grupo.
 
 ◉ *CREAR STICKERS*
   ║
   ╠○ ${prefix}sticker
   ╠○ ${prefix}attp
-  ╠ ➢Mas un texto corto
+  ╠ ➢Mas un texto corto.
   ╠○ ${prefix}stickergif
-  ╚ ➢6 segundos de video
+  ╚ ➢6 segundos de video.
 
 ◉ *CONVERTIDORES*
   ║
   ╠○ ${prefix}toimg
-  ╠ ➢De sticker a JPG
+  ╠ ➢De sticker a imagen.
   ╠○ ${prefix}tomp3
-  ╚ ➢De video a MP3
+  ╚ ➢De video a MP3.
 
 ◉ *AUDIO*
   ║
   ╠○ ${prefix}idioma
   ╠○ ${prefix}tts es
-  ╚ ➢mas texto)
-
-◉ *OTROS*
-  ║
-  ╠○ ${prefix}wame
-  ╠ ➢Link de Whatsapp
-  ╠○ ${prefix}qrcode
-  ╚ ➢Coloca un texto
+  ╚ ➢mas texto.
 
 ◉ *GRUPOS*
   ║
   ╠○ ${prefix}closegc
-  ╠ ➢Cerrar el grupo solo admins
+  ╠ ➢Cerrar el grupo. [Solo Admins Pueden Hacerlo]
   ╠○ ${prefix}opengc
-  ╠ ➢Abrir grupo solo admins
+  ╠ ➢Abrir grupo. [Solo Admins Pueden Hacerlo]
   ╠○ ${prefix}kickmenu
-  ╠ ➢Eliminar a un miembro 
+  ╠ ➢Eliminar a un participante.
   ╠○ ${prefix}promote
-  ╠ ➢Dar admin a un miembro
+  ╠ ➢Dar el honor de ser admin a un participante.
   ╠○ ${prefix}demote
-  ╠ ➢Quitar el admin
+  ╠ ➢Quitar Admin porque le falta odio :v.
   ╠○ ${prefix}linkgc
-  ╠ ➢Link del grupo
+  ╠ ➢Enlace del grupo.
   ╠○ ${prefix}adminlist
-  ╠ ➢Nombra a los admins del grupo
+  ╠ ➢Nombra a los administradores del grupo.
   ╠○ ${prefix}todos
-  ╚ ➢Nombra a todos los del grupo
+  ╚ ➢Nombra a todos los integrantes del grupo.
 
-Para usar estas funciones el bot necesita admin
+◉ *OTROS*
+  ║
+  ╠○ ${prefix}wame
+  ╠ ➢Link de tu Whatsapp.
+  ╠○ ${prefix}qrcode
+  ╚ ➢Coloca un texto.
+
+Para usar estas funciones el bot necesita ser administrador.
   
 ◉ *NSWF* 
   ║
@@ -97,8 +95,7 @@ NOTAS.
 
 ➢No entres al grupo ofc a enviar tu enlace no seas Gil(a).
 
-➢Si quieres que el bot esté en tu grupo no hay problema manda mensaje al pv de Jiren :v.
-La única condición es que el bot enviara el enlace dem grupo ofc, ya que está incrustados en el menú.
+➢Si quieres que el bot esté en tu grupo no hay problema manda mensaje al pv de Jiren. wa.me/+524591347471.
 
 *By.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽*
 
