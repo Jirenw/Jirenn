@@ -7,10 +7,10 @@ const desmenu = (prefix, pushname) => {
 *AUDIO*
 
 ${prefix}play2
-Una alternativa por si *play llego a su limite de canciones
+Una alternativa por si *play llego a su limite de canciones.
 
 ${prefix}play
-Coloca el nombre de la cancion, o el link del video YT
+Coloca el nombre de la cancion, o el link del video YouTube.
 
 
 ${prefix}play Industry Baby Lil Nas X
