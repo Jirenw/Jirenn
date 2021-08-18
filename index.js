@@ -268,11 +268,11 @@ async function starts() {
 			console.log(anu)
 			if (anu.action == 'add') {
 				num = anu.participants[0]
-				teks = `HOLAA!! @${num.split('@')[0]} ¿COMO ESTAS?😃\n\n『Bienvenido A *${mdata.subject}*』\n\nUn gusto Tenerte por aca UwU\n\n_Recuerda leer las reglas del grupo para no tener ningun problema y así no seas eliminad@ muy pronto 🧐_\n\n*Solo disfrutar de este grupo y divertite y bueno aporta cuando puedas UwU, y disfruta de los aportes ._. 🥳*`
+				teks = `HOLAA!! @${num.split('@')[0]} ¿COMO ESTAS?😃\n\n『BIENVENID@ *${mdata.subject}*』\n\nUn gusto Tenerte por aca UwU\n\n_Recuerda leer las reglas del grupo para no tener ningun problema y así no seas eliminad@ muy pronto 🧐_\n\n*Solo disfrutar de este grupo y divertite y bueno aporta cuando puedas UwU, y disfruta de los aportes ._. 🥳*`
                           client.sendMessage(mdata.id, teks, MessageType.text, { contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nAdios Put@ 😎`
+				teks = `Bueno, se fue @${num.split('@')[0]} 👋\n\nAdios, estoy seguro en un 99,99% de que nadie te va a extrañar :v 😎`
 				client.sendMessage(mdata.id, teks, MessageType.text, {contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -326,17 +326,17 @@ async function starts() {
 					ownerB: '[❗] Este comando solo lo usa Mi dueño',
 					admin: '[❗] Este comando solo puede ser utilizado por administradores del grupo',
 					Badmin: '[❗] Este comando solo se puede usar cuando el bot se convierte en administrador',
-                                        pegatina: 'Calma crack estoy haciendo tu sticker 👏\n\n*Recuerda los stickersgif son de 6 segundos*\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
+                                        pegatina: 'Calma crack estoy haciendo tu sticker, sin hacer spam ._. 👏\n\n*Recuerda los stickersgif son de 6 segundos*\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					attp: 'Calma estoy haciendo tu texto a sticker 👏\n\n*Esto puede demorar unos minutos*\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					imgs: 'Ey guap@ 🥴\n\n*Convirtiendo tu Sticker a Imagen 🔄*\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					mpcancion: 'Calma estoy procesando 😎\n\n*Convirtiendo de MP4 a MP3 🔄*\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
-					mpa: 'Euu flac@ 🥴\n\n*Estoy decargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
+					mpa: 'Ey flac@ 🥴\n\n*Estoy decargando tu cancion 🔄*\n\nAguarde un momento, por favor\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
                                         xn: 'Calma guap@ 😎\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					mpv: 'Calma ✋🥸🤚\n\n*Estoy descargando tu video 🔄*\n\nAguarde un momento, por favor\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					insta: 'Calma, espera 😎\n\n*Estoy descargando tu post 🔄*\n\nAguarde un momento, por favor\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					musica: 'Calmate que estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando *play no funciona utiliza el comando *play2*\n\nSi no envio tu musica checa que version tienes del bot con *version\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
 					musica2: 'Espera estoy bucando tu canción 😎\n\n*Recuerda colocar bien el nombre de la cancion o el link del video de youtube*\n\n*Si el comando *play2 no funciona utiliza el comando *play*\n\nSi no envio tu musica checa que version tienes del bot con *version\n\nBy.〲⎠⎠ɪʀᴇɴ〴᭄Y🌹⃢⃟ꦼ𝔚𝔢𝔫𝔡𝔶-𝔠𝔥𝔞𝔫༒⃢⃟🇲🇽',
-					daftarB: `「NO ESTAS REGISTRADO」\n\nNO APARECES EN MI BASE DE DATOS ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar UwU`,
+					daftarB: `「NO ESTAS REGISTRADO」\n\nQUE FUE, NO APARECES EN MI BASE DE DATOS~[REGISTRATE] ✋🥸🤚\n\nPara poder usarme escribe el siguente comando\n\nComando: ${prefix}daftar Nombre\nEjemplo: ${prefix}daftar UwU`,
 				}
 			}
     			const apakah = ['Si','No']
@@ -501,7 +501,7 @@ async function starts() {
                 addLevelingXp(sender, amountXp)
                 if (requiredXp <= getLevelingXp(sender)) {
                     addLevelingLevel(sender, 1)
-                    await reply(`*「 FELICIDADES🥳 」*\n\nFelicidades subiste de nivel sigue asi UwU👏\n\n*NOMBRE*\n${pushname}\n*XP*: ${getLevelingXp(sender)}\n*NIVEL*: ${getLevel} ⟿ ${getLevelingLevel(sender)}\n\n_*Para ver tu XP en tiempo real coloca el comando ${prefix}level*_`)
+                    await reply(`*「 SUBISTE DE NIVEL🥳 」*\n\nFelicidades subiste de nivel sigue asi UwU👏\n\n*NOMBRE*\n${pushname}\n*XP*: ${getLevelingXp(sender)}\n*NIVEL*: ${getLevel} ⟿ ${getLevelingLevel(sender)}\n\n_*Para ver tu XP en tiempo real coloca el comando ${prefix}level*_`)
                 }
             } catch (err) {
                 console.error(err)
@@ -637,14 +637,14 @@ async function starts() {
 					if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('¡La etiqueta de destino que desea promocionar!')
 					mentioned = mek.message.extendedTextMessage.contextInfo.mentionedJid
 					if (mentioned.length > 1) {
-						teks = 'Pedido recibido✅\n\nAgregando cargo como administrador no sabemos si se le merece pero bueno.:\n'
+						teks = '*A SUS ORDENES QUERID@ ADMIN🌚✅*\n\nAgregando cargo como administrador, yo no sé si se lo merece Pero bueno si usted lo decidió entonces está todo bien UwU:\n'
 						for (let _ of mentioned) {
 							teks += `@${_.split('@')[0]}\n`
 						}
 						mentions(teks, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					} else {
-						mentions(`Pedido recibido✅\n\nAgregando cargo como administrador, no sabemos si se lo merece pero bueno XD : @${mentioned[0].split('@')[0]}`, mentioned, true)
+						mentions(`*A SUS ORDENES QUERID@ ADMIN🌚✅*\n\nAgregando cargo como administrador, yo no se si se lo merece pero bueno si usted lo decidió entonces está todo correcto UwU : @${mentioned[0].split('@')[0]}`, mentioned, true)
 						client.groupMakeAdmin(from, mentioned)
 					}
 					break
@@ -858,7 +858,7 @@ break
 					}, 2000)
                      setTimeout( () => {
 					client.updatePresence(from, Presence.composing) 
-					client.sendMessage(from, 'Chao Tu tiempo aquí se acabó👋', text) // ur cods
+					client.sendMessage(from, 'Chao, que le valla bien y espero nunca olvides que *ELLA NO TE AMA* 👋', text) // ur cods
 					}, 0)
                      break
        /*case 'ownergrup':
@@ -1086,7 +1086,7 @@ break
 					break
 				                case 'attp':
 						if (!isUser) return reply(mess.only.daftarB)
-					        if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp shanduy`)
+					        if (args.length < 1) return reply(`¿Dónde está el texto?\n*Ejemplo:* ${prefix}attp Jiren Y Wendy-Chan`)
 						reply(mess.only.attp)
 					        attp2 = await getBuffer(`https://api.xteam.xyz/attp?file&text=${body.slice(6)}`)
 						client.sendMessage(from, attp2, MessageType.sticker, {quoted: mek})
